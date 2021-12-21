@@ -1,0 +1,103 @@
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+  }
+  .carousel-fade .carousel-inner .item,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+  }
+  .carousel-fade .carousel-inner .active,
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  .carousel-fade .carousel-inner .next,
+  .carousel-fade .carousel-inner .prev,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+  html,
+  body,
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 100%;
+  }
+  .item {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .item-port:nth-child(1) {
+    background-image: url('./img/fondo-4.png');
+  }
+  .item-port:nth-child(2) {
+    background-image: url('./img/fondo-5.png');
+  }
+  .item-port:nth-child(3) {
+    background-image: url('./img/fondo-6.png');
+  }
+
+  .item-c1:nth-child(1) {
+    background-image: url('http://softwareplanillas.com/img/globalhome.jpg');
+  }
+  .item-c1:nth-child(2) {
+    background-image: url('http://softwareplanillas.com/img/grupoinmo.jpg');
+  }
+  .item-c1:nth-child(3) {
+    background-image: url('http://softwareplanillas.com/img/pescado.jpg');
+  }
+
+  .item-c2:nth-child(1) {
+    background-image: url('http://softwareplanillas.com/img/preludio.jpg');
+  }
+  .item-c2:nth-child(2) {
+    background-image: url('http://softwareplanillas.com/img/sigmacont.jpg');
+  }
+  .item-c2:nth-child(3) {
+    background-image: url('http://softwareplanillas.com/img/mj.jpg');
+  }
+
+  .item-c3:nth-child(1) {
+    background-image: url('http://softwareplanillas.com/img/bk.jpg');
+  }
+  .item-c3:nth-child(2) {
+    background-image: url('http://softwareplanillas.com/img/equus.jpg');
+  }
+  .item-c3:nth-child(3) {
+    background-image: url('http://softwareplanillas.com/img/santavict.jpg');
+  }
+
+  .item-c4:nth-child(1) {
+    background-image: url('http://softwareplanillas.com/img/espacio.jpg');
+  }
+  .item-c4:nth-child(2) {
+    background-image: url('http://softwareplanillas.com/img/moras.jpg');
+  }
+  .item-c4:nth-child(3) {
+    background-image: url('http://softwareplanillas.com/img/huby.jpg');
+  }
+
+  .item-c5:nth-child(1) {
+    background-image: url('http://softwareplanillas.com/img/capon.jpg');
+  }
+  .item-c5:nth-child(2) {
+    background-image: url('http://softwareplanillas.com/img/metco.jpg');
+  }
+  .item-c5:nth-child(3) {
+    background-image: url('http://softwareplanillas.com/img/estremadoy.jpg');
+  }
+
+  .item-nos:nth-child(1) {
+    background-image: url('./img/nosotros-1.jpg');
+  }
+  .item-nos:nth-child(2) {
+    background-image: url('./img/nosotros-2.jpg');
+  }
+  .item-nos:nth-child(3) {
+    background-image: url('./img/nosotros-3.jpg');
+  }
